@@ -6,7 +6,7 @@
 #include <unistd.h>
 #include "gpio.h"
 
-#define TASK_STKSZ	0	//default stack size
+#define TASK_STKSZ	60	//default stack size
 #define TASK_PRIO	20	//0-99
 #define TASK_MODE	0	//no flags
 
